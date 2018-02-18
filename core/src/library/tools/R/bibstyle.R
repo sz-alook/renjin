@@ -64,7 +64,7 @@ makeJSS <- function()
 	fmtBook <- emphclean
 	fmtBtitle <- emphclean
 	fmtChapter <- labelclean(prefix="chapter ")
-	fmtDOI <- label(prefix="\\url{http://dx.doi.org/", suffix="}")
+	fmtDOI <- label(prefix="\\url{https://doi.org/", suffix="}")
 	fmtEdition <- labelclean(suffix=" edition")
 	fmtEprint <- plain
 	fmtHowpublished <- plainclean
